@@ -11,4 +11,4 @@ EXPOSE 27960/udp
 VOLUME /config/baseoa
 
 ENTRYPOINT ["/usr/games/openarena-server"]
-CMD ["+set", "fs_homepath". "/config", "+exec", "server.cfg", "+set", "dedicated", "1", "+set", "net_port", "27961"]
+CMD ["+set", "fs_homepath". "/config", "+exec", "server.cfg", "+set", "dedicated", "1", "+set", "net_port", "27960"]
